@@ -1,0 +1,42 @@
+# Cortex project
+build/
+
+# php files
+index.php
+
+# Numerous always-ignore extensions
+*.bak
+*.patch
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.zip
+*.vi
+*~
+*.sass-cache
+
+# OS or Editor folders
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+*.sublime-project
+*.sublime-workspace
+nbproject
+thumbs.db
+
+# Folders to ignore
+.CVS
+.idea
+old/
+*-old/
+*-notrack/
+build/
+combo/
+reference/
+jscoverage_lib/
+temp/

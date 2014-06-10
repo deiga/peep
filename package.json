@@ -1,0 +1,40 @@
+{
+  "name": "peep",
+  "version": "0.1.1",
+  "description": "Peep is a smart fs.watch wrapper which is lighter and faster, uses as less fs.FSWatchers as possible, and could prevent duplicate watching.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/deiga/peep.git"
+  },
+  "keywords": [
+    "glob",
+    "globule",
+    "watcher",
+    "gaze",
+    "peep",
+    "fs",
+    "watch"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deiga/peep/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
+  "maintainers": [
+    "kael <i@kael.me>",
+    "deiga <timo.j.sand@gmail.com>"
+  ],
+  "homepage": "https://github.com/deiga/peep",
+  "directories": {
+    "test": "test"
+  },
+  "author": "kael"
+}
