@@ -1,8 +1,8 @@
 # Peep
 
-Peep is a smart `fs.watch` wrapper which is lighter and faster. It uses as less `fs.FSWatcher`s as possible, and could prevent duplicate watching.
+Peep is a smart `fs.watch` wrapper which is lighter and faster. It uses as little `fs.FSWatcher`s as possible, and can prevent duplicate watching.
 
-Peep has a better `.add()` method which could automatically detect nested structures between the current watched files and directories, and choose the best strategy to make it fast and of less resources usage.
+Peep has a better `.add()` method which can automatically detect nested structures between the current watched files and directories, and choose the best strategy to make it fast and use less resources.
 
 ## Installation
 
@@ -59,4 +59,4 @@ The current watched files.
 
 ## Events
 
-What's comming...
+What's coming...
