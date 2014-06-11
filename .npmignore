@@ -17,6 +17,7 @@ index.php
 *.vi
 *~
 *.sass-cache
+.tags
 
 # OS or Editor folders
 .cache
@@ -40,3 +41,4 @@ combo/
 reference/
 jscoverage_lib/
 temp/
+test/
