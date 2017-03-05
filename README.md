@@ -1,5 +1,7 @@
 # Peep
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/deiga/peep.svg)](https://greenkeeper.io/)
+
 Peep is a smart `fs.watch` wrapper which is lighter and faster. It uses as little `fs.FSWatcher`s as possible, and can prevent duplicate watching.
 
 Peep has a better `.add()` method which can automatically detect nested structures between the current watched files and directories, and choose the best strategy to make it fast and use less resources.
